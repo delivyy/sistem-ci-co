@@ -1,0 +1,60 @@
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.left-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-malang {
+    height: 70px;
+}
+
+.logo-mcc {
+    height: 50px;
+}
+
+.logo-sdg {
+    height: 85px;
+}
+
+/* Responsive for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-logo,
+    .right-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-logo {
+        gap: 10px;
+    }
+
+    .logo-malang {
+        height: 50px;
+    }
+
+    .logo-mcc {
+        height: 40px;
+    }
+
+    .logo-sdg {
+        height: 65px;
+    }
+}
